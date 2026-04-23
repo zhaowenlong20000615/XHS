@@ -1,0 +1,104 @@
+# macOS
+.DS_Store
+*.swp
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+.claude/
+
+# Python virtualenvs
+.venv*/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build outputs (Java/Maven/Gradle/etc.)
+build/
+target/
+out/
+*.class
+*.jar
+*.war
+
+# Native binaries / libraries
+*.so
+*.dylib
+*.dll
+*.a
+*.o
+*.exe
+
+# APKs / DEX / archives
+*.apk
+*.aab
+*.dex
+*.aar
+classes*-error.zip
+*.zip
+*.7z
+*.rar
+
+# Reverse engineering working dirs (large + sensitive)
+build/
+target/
+unicorn/
+capture/
+scratch/
+lsposed/
+ghidra_proj/
+ollvm_explore/
+unidbg-xhs/
+bss_dumps/
+fake_rootfs/
+unidbg/
+.browser-pilot/
+
+# Logs / captures (may contain device fingerprints, tokens, session data)
+logs/
+*.log
+*.pcap
+*.pcapng
+cap_*.log
+xhs_*.log
+
+# Memory / state dumps
+*.dump
+*.bin
+*.dat
+.bss_*
+.current_ts
+.session_ts
+.mitm_marker
+
+# PID / lock files
+*.pid
+
+# Secrets / device-specific
+*.token
+*.key
+*.pem
+*.p12
+*.keystore
+secrets/
+.env
+.env.*
+device_*.json
+session_*.json
+
+# Frida temp output
+frida_*.log
+agent_*.js.map
+
+# Ghidra projects (binary, huge)
+*.gpr
+*.rep/
+*.lock
+
+# Misc
+*.tmp
+*.bak
+*~
